@@ -1,0 +1,89 @@
+const movies = [
+  {
+    title: "The Matrix",
+    year: 1999,
+    poster: "https://example.com/posters/the-matrix.jpg",
+    director: "Lana Wachowski, Lilly Wachowski",
+  },
+  {
+    title: "Inception",
+    year: 2010,
+    poster: "https://example.com/posters/inception.jpg",
+    director: "Christopher Nolan",
+  },
+  {
+    title: "Parasite",
+    year: 2019,
+    poster: "https://example.com/posters/parasite.jpg",
+    director: "Bong Joon-ho",
+  },
+  {
+    title: "The Godfather",
+    year: 1972,
+    poster: "https://example.com/posters/the-godfather.jpg",
+    director: "Francis Ford Coppola",
+  },
+  {
+    title: "Spirited Away",
+    year: 2001,
+    poster: "https://example.com/posters/spirited-away.jpg",
+    director: "Hayao Miyazaki",
+  },
+];
+
+const series = [
+  {
+    title: "Breaking Bad",
+    year: 2008,
+    poster: "https://example.com/posters/breaking-bad.jpg",
+    director: "Vince Gilligan",
+  },
+  {
+    title: "Stranger Things",
+    year: 2016,
+    poster: "https://example.com/posters/stranger-things.jpg",
+    director: "The Duffer Brothers",
+  },
+  {
+    title: "The Crown",
+    year: 2016,
+    poster: "https://example.com/posters/the-crown.jpg",
+    director: "Peter Morgan",
+  },
+  {
+    title: "The Office (US)",
+    year: 2005,
+    poster: "https://example.com/posters/the-office-us.jpg",
+    director: "Greg Daniels",
+  },
+  {
+    title: "Game of Thrones",
+    year: 2011,
+    poster: "https://example.com/posters/game-of-thrones.jpg",
+    director: "David Benioff & D. B. Weiss",
+  },
+  {
+    title: "The Mandalorian",
+    year: 2019,
+    poster: "https://example.com/posters/the-mandalorian.jpg",
+    director: "Jon Favreau",
+  },
+  {
+    title: "Fleabag",
+    year: 2016,
+    poster: "https://example.com/posters/fleabag.jpg",
+    director: "Phoebe Waller-Bridge",
+  },
+  {
+    title: "Dark",
+    year: 2017,
+    poster: "https://example.com/posters/dark.jpg",
+    director: "Baran bo Odar & Jantje Friese",
+  },
+];
+
+const hello = () => {
+  console.log("Hello");
+};
+
+export { movies, series, hello };
