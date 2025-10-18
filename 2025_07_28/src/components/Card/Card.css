@@ -1,0 +1,11 @@
+main #mainContainer li {
+  flex-grow: 1;
+  min-width: 128px;
+  padding: 1rem;
+  border: 1px dashed;
+  text-align: center;
+}
+
+main #mainContainer li h3 {
+  font-weight: 200;
+}

@@ -1,0 +1,12 @@
+main {
+  border: 1px dashed;
+  padding: 1rem;
+}
+
+main #mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
